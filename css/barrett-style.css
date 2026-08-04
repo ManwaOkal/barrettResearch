@@ -1,0 +1,473 @@
+body {
+  padding-top: 90px;
+}
+footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+body.staars{
+  background-color: rgba(224, 224, 224, 0.5);
+}
+
+/*
+@media (max-width: 767px) {
+.dyson-logo {
+    height: 70px;
+    width: auto;
+}
+
+body {
+  padding-top: 70px;
+}
+
+}
+
+*/
+
+/*
+ * Off Canvas - bootstrap
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 768px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}
+
+
+
+.img-books {
+  padding-bottom:25px;
+  padding-right:25px;
+}
+
+.img-teaching {
+  padding-bottom:25px;
+  padding-left:25px;
+}
+
+/*
+ * Research Group from http://unmatchedstyle.com/
+ * --------------------------------------------------
+ */
+
+
+article.rgroup {
+	float: left;
+	display: table-cell;
+	text-align: center;
+	width: 210px;
+	height: 250px;
+	margin-right: 15px;
+	margin-bottom: 50px;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	             border-radius: 3px;
+}
+
+article.rgroup * {
+	vertical-align: middle;
+}
+
+article.rgroup span {
+	display: inline-block;
+	height: 100%;
+	width: 1px;
+}
+
+/* Staars navigation bar */
+
+ul.navb {
+    list-style-type: none;
+    background-color: #E0E0E0;
+    border-color: #990000;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 5vw;
+}
+
+li.navb {
+    font-size: 2vw;
+    float: left;
+    border: 6px;
+    height: 5vw;
+}
+
+li.navb a.navb {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1vw 1.5vw;
+    text-decoration: none;
+}
+
+li.navb a.navb:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 5vw;
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 5vw;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown li ul  {
+    display: none; /* Hides the drop-down menu */
+    margin: 0; /* Aligns drop-down box underneath the menu item */
+    padding: 0; /* Aligns drop-down box underneath the menu item */
+    margin-left: 35px;
+    margin-top: 5px;
+    }
+
+.dropdown li:hover ul  {
+  display: block; /* Displays the drop-down box when the menu item is hovered over */
+  background: white;
+}
+
+/* STAARS navigation dropdown menu */
+.dropbtn {
+    border: none;
+    cursor: pointer;
+    height: 5vw;
+    font-size: 2vw;
+}
+
+.dropbtn > a{
+  color: black;
+  text-decoration: none;
+  padding: 1vw 1.5vw;
+  height: 5vw;
+}
+
+@media (max-width: 375px){
+  li.navb a.navb:hover {
+      height: 5.2vw;
+  }
+
+  .active {
+    height: 5.2vw;
+  }
+}
+
+li.dropdown-navb {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #E0E0E0;
+    margin-left: -2vw;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 1vw 5.2vw;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown-navb:hover .dropdown-content {
+    display: block;
+}
+
+/* headings */
+h1.staars {
+  font-family: "Trebuchet MS";
+  font-size: 4.2vw;
+}
+
+h2.staars {
+  font-family: "Trebuchet MS";
+  font-size:3vw;
+  font-weight: 400;
+}
+
+h3.staars {
+  font-family: "Trebuchet MS";
+  font-size:25px;
+  font-weight: bold;
+}
+
+.headers {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: rgb(160,0,0);
+}
+
+h1.headers {
+  font-size: 30px;
+  border-bottom-style: none;
+}
+
+.headers h2 {
+  margin: 0px;
+  font-size: 25px;
+  color: rgb(160, 0, 0);
+}
+
+.paragraph {
+  font-size: 18px;
+  font-family: "Helvetica";
+}
+
+.paragraph1 {
+  font-size: 16px;
+  font-family: "Helvetica";
+}
+
+@media  (max-width: 780px){
+  .paragraph {
+    font-size: 2.3vw;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+
+p.redlink {
+  font-size: 20px;
+  font-weight: 300;
+  color: rgb(160, 0, 0);
+  text-decoration: none;
+
+}
+
+
+/* research blocks */
+.research {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+/* inner sections */
+.inner {
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+
+.home_inner {
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 0px;
+}
+
+.sect {
+  background-color: rgba(240, 240, 240, 1);
+  border-radius: 10px;
+}
+
+/* header images */
+.imgs {
+   position: relative;
+   width: 100%; /* for IE 6 */
+}
+
+h1.heading {
+   position: absolute;
+   margin-top:-10vw;
+   padding-right: 30px;
+   left: 0;
+   width: 100%;
+   color:white;
+   text-align:right;
+}
+
+h1.fellowship {
+  margin-top: -14vw;
+}
+/* img border radius */
+.rad {
+  border-radius: 10px;
+}
+
+.border_img {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(230, 230, 230);
+}
+
+/* Media coverage outlet logos: uniform box so wide/tall marks align */
+body.media-coverage-page .rad.border_img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  object-position: center;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.presentation {
+  font-size: 21px;
+  font-weight: 600;
+  text-decoration: none;
+  color: rgb(179, 0, 0);
+  font-family: "Trebuchet MS";
+}
+
+.presentation:hover {
+  text-decoration: none;
+  color: rgb(128, 0, 0);
+}
+
+p.date {
+  font-weight: 450;
+  font-size: 12px;
+  color: rgb(100, 100, 100);
+}
+
+p.titles {
+  font-size: 15px;
+  font-weight: 300;
+  color: rgb(128, 0, 0);
+}
+
+p.college {
+  color: black;
+  font-weight: 300;
+}
+
+.titles:link {
+  text-decoration: none;
+  color: rgb(128, 0, 0);
+}
+
+a.titles{
+  text-decoration:none;
+  font-size: 15px;
+  font-weight: 300;
+  color: rgb(128, 0, 0);
+}
+
+.description {
+  margin-left: -50px;
+}
+
+.description p {
+  margin: 0px;
+  padding: 5px;
+  display: inline;
+}
+
+p.project {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+.block{
+  background: rgb(230, 230, 230);
+  border-radius:8px;
+  margin-bottom:10px;
+}
+
+.img{
+  background-color: rgb(140, 140, 140);
+  height: 350px;
+  border-radius: 10px;
+}
+
+.preview{
+  margin-left: 0px;
+  width: 100%;
+  padding: 20px;
+  margin-top: -10px;
+  border-radius: 50%;
+  -webkit-transition: border-radius .5s;
+}
+
+#name {
+  position: relative;
+  background: rgba(255, 255, 255, .8);
+  width: auto;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  color: rgb(100, 100, 100);
+}
+
+#pic:hover #name {
+  transition: all .5s ease-out;
+  color: rgb(240,240,240);
+  background-color: rgb(110, 110, 110);
+}
+
+#pic:hover .preview {
+  transition: all .5s ease;
+  border-radius: 0px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 320px){
+  h1.staars {
+    font-size: 3.6vw;
+  }
+
+  h1.fellowship {
+    margin-top: -10vw;
+    font-size: 3.4vw;
+  }
+
+  .dropbtn{
+    height: 4.4vw;
+  }
+
+  ul.navb {
+    height: 4.4vw;
+  }
+
+  li.navb a.navb:hover {
+      height: 4.4vw;
+  }
+
+  .active {
+    height: 4.4vw;
+  }
+}
+
+.paper_link {
+  color:#B31B1B;
+  font-weight: bold;
+}
